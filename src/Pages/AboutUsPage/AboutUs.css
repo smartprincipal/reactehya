@@ -1,0 +1,20 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.hero-circles{
+ background: linear-gradient(-180deg, #4A99D3 -180%, rgba(74, 153, 211, 0) 76.31%), #FFFFFF;
+ height: 509px;
+}
+.header{
+ padding-top: 2rem;
+}
+.form{
+ position: relative;
+}
+
+.footer{
+ position: relative;
+}
+
