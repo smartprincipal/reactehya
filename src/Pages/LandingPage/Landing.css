@@ -12,7 +12,7 @@
  }
  
  .sub-hero-circle{
-   padding-left: 140px;
+   padding-left: 8.7rem;
   }
   .hero-content{
    color: #fff;
@@ -23,8 +23,8 @@
    font-size: 64px;
    font-weight: 700;
    line-height: 76px;
-   width: 550px;
-   margin-top: 180px;
+   max-width: 34.375rem;
+   margin-top: 11.25rem;
    text-align: left;
   }
   .vector{
@@ -36,18 +36,18 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  width: 440px;
+  max-width: 27.5rem;
   text-align: left;
   }
   .fl{
-   margin-top: 32px;
+   margin-top: 2rem;
    display:flex;
    align-items: center;
  gap: 42px;
    margin-bottom: 173px;
   }
   .btn-fl{
-   width: 197px;
+   max-width: 12.3125rem;
    height: 57px;
    background-color: #ffffff;
    border-radius: 4px;
@@ -86,7 +86,7 @@
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    max-width: 70%;
    }
    .patners2{
     display: flex;
@@ -94,6 +94,7 @@
     justify-content: space-between;
   }
   .parabolic{
+    display: block;
    position:absolute;
    left:140px;
   
@@ -149,7 +150,7 @@
     margin-bottom: 80px;
    }
    .section2 .sch{
-    width: 446px;
+    max-width: 446px;
     color: rgba(3, 77, 130, 1);
    font-size: 36px;
    font-weight: 700;
@@ -223,7 +224,7 @@
    justify-content: space-around;
    padding-left: 140px;
    margin-top: 56px;
-   width: 90%;
+   max-width: 90%;
   }
   .section4{
     padding-left: 140px;
@@ -436,15 +437,15 @@
    /* Mobile Responsiveness */
   @media screen and (max-width: 800px) {
   .hero-circle{
-    height: 750px;
+    height: 46.875rem;
   }
   
  .sub-hero-circle{
-  padding-left: 20px;
+  padding-left: 1.25rem;
  }
  .hero-content h1{
   margin-top: 20px;
-  width: 280px;
+  /* min-width: 16rem; */
   font-size: 54px;
  }
  .vector{
@@ -452,14 +453,14 @@
   left: 0px;
  }
  .hero-content .ehya{
-  width: 280px;
+  /* width: 280px; */
  }
  .fl{
   margin-bottom: 20px;
   gap: 20px;
  }
  .btn-fl{
-  width: 127px;
+  /* max-width: 127px; */
   height: 57px;
  
  }
@@ -482,9 +483,15 @@
   flex-direction: column;
  }
  .parabolic{
-  width: 280px;
+  max-width: 280px;
   top: 1280px;
-  left: 20px;
+  /* left: 40px; */
+  margin-left: auto;
+  margin-right: auto;
+  /* display: flex;
+  justify-content: center;
+  text-align: center; */
+  display: none;
  }
  .phone1{
   left: 10px;
@@ -500,14 +507,14 @@
  }
  .patners2-content{
   margin-top: -72px;
-  padding-left: 1rem;
- padding-right: 0rem; 
+  padding-left: 0.5rem;
+ margin-right: 40px;
 
  }
 
  .patners2-content h3{
   text-align: center;
-  width: 280px;
+  /* width: 280px; */
  }
  .patners2-content p{
   text-align: left;
@@ -517,15 +524,15 @@
  .section2{
   flex-direction: column;
   margin-top: 50px;
-  padding-left: 0rem;
+  padding-left: 0.5rem;
   margin-bottom: 40px;
  }
  .tt{
-  margin-left: 1rem;
+  margin-left: 0;
  }
  .section2 .sch{
   text-align: center;
-  width: 280px;
+  /* width: 280px; */
   
  }
  .section2 .pub{
@@ -536,7 +543,7 @@
   margin-top: 30px;
  }
  .section3{
-  padding-left: 1rem;
+  padding-left: 0.5rem;
  }
  .section3 h2 {
   padding-top: 30px;
@@ -549,7 +556,7 @@
 .cardContainer{
   padding-left: 0rem;
   margin-top: 36px;
-  width: 100%;
+  /* width: 100%; */
   text-align: center;
  }
  .section4{
