@@ -9,4 +9,5 @@ section 1
 Section 2
 Section 3
 Section 4
-and Footer component 
+Footer component 
+form component
