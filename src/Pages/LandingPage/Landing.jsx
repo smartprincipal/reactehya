@@ -27,7 +27,7 @@ import SmallImage3 from '../../asset/smallImage3.png'
 import SmallImage4 from '../../asset/smallImage4.png'
 import SmallImage5 from '../../asset/smallImage5.png'
 import Footer from '../../Components/Footer/footer';
-import Testimonials from '../../Components/Testimonials/Testimonials'
+// import Testimonials from '../../Components/Testimonials/Testimonials'
 
 // import HeroSection from '../../sections/landing/HeroSection/heroSection';
 // import { Form } from 'react-router-dom';
@@ -186,7 +186,7 @@ const Landing = () => {
               “With Ehya, we’re able to easily track our performance in full detail. It’s become an essential tool for us to grow and engage with our audience.”
             </p>
           </div>
-          <Testimonials/>
+          {/* <Testimonials/> */}
 
       
             {/* <div className="testimonial" >

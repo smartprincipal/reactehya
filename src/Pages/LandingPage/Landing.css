@@ -238,7 +238,7 @@
     margin-bottom: 100px;
    }
    .sub-sec4 h3{
-    width: 463px;
+    max-width: 463px;
     color: rgba(3, 77, 130, 1);
    font-size: 36px;
    font-weight: 700;
@@ -251,7 +251,7 @@
    font-size: 16px;
    font-weight: 400;
    line-height: 32px;
-   width: 421px;
+   max-width: 421px;
    
    }
    .stars{
@@ -264,7 +264,7 @@
     margin-top: 44px;
    }
    .review p{
-    width: 463px;
+    max-width: 463px;
     color: rgba(144, 163, 180, 1);
    font-size: 16px;
    font-style: italic;
@@ -319,7 +319,7 @@
      .dot {
        cursor: pointer;
        height: 10px;
-       width: 10px;
+       max-width: 10px;
        margin: 0 2px;
        background-color: #bbb;
        border-radius: 50%;
@@ -368,14 +368,14 @@
    font-size: 36px;
    font-weight: 700;
    line-height: 44px;
-   width: 355px;
+   max-width: 355px;
    margin-top: 65px;
    margin-left: 72px;
    text-align: left;
    }
    
    .sub41 p:nth-child(even){
-    width: 271px;
+    max-width: 271px;
    font-size: 14px;
    font-weight: 500;
    line-height: 32px;
@@ -437,23 +437,27 @@
    /* Mobile Responsiveness */
   @media screen and (max-width: 800px) {
   .hero-circle{
-    height: 46.875rem;
+    height: 45.875rem
   }
   
  .sub-hero-circle{
   padding-left: 1.25rem;
+  padding-right: 1.25rem;
  }
  .hero-content h1{
   margin-top: 20px;
-  /* min-width: 16rem; */
   font-size: 54px;
+  margin-left: auto;
+  margin-right: auto;
+  /* text-align: center; */
  }
  .vector{
   position: relative;
   left: 0px;
  }
  .hero-content .ehya{
-  /* width: 280px; */
+  margin-left: auto;
+  margin-right: auto;
  }
  .fl{
   margin-bottom: 20px;
@@ -505,10 +509,14 @@
   top: 1271px;
   height: 300px;
  }
+ .patners2{
+  justify-content: center;
+ }
  .patners2-content{
   margin-top: -72px;
-  padding-left: 0.5rem;
- margin-right: 40px;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+ margin-right: 0px;
 
  }
 
@@ -525,18 +533,31 @@
   flex-direction: column;
   margin-top: 50px;
   padding-left: 0.5rem;
+  padding-right: 0.5rem;
   margin-bottom: 40px;
+  justify-content: center;
+ }
+ .bull{
+   margin-right: auto;
+   margin-left: auto;
+   /* width: 50%; */
+ }
+ .bull .same{
+  /* text-align: center; */
+  /* align-items: center; */
  }
  .tt{
-  margin-left: 0;
+  /* margin-left: 0; */
+  text-align: center;
  }
  .section2 .sch{
   text-align: center;
-  /* width: 280px; */
+  max-width: 800px;
   
  }
  .section2 .pub{
-  max-width: 280px;
+  max-width: 600px;
+  text-align: center;
 }
  .tt-image img{
   margin-left: 0px;
@@ -544,42 +565,49 @@
  }
  .section3{
   padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  justify-content: center;
  }
  .section3 h2 {
   padding-top: 30px;
 }
 .section3 p {
-  text-align: left;
-  margin-top: 24px;
-  max-width: 280px;
+  /* text-align: left; */
+  margin-top: 14px;
+  /* max-width: 280px; */
 }
 .cardContainer{
-  padding-left: 0rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   margin-top: 36px;
-  /* width: 100%; */
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
  }
  .section4{
   padding-left: 1rem;
-  padding-right: 0px;
+  padding-right: 1rem;
   margin-bottom: 30px;
  }
  .section4-1{
   flex-direction: column;
   margin-top: 40px;
   margin-bottom: 100px;
-  max-width: 280px;
+  justify-content: center;
+  align-items: center;
  }
  .sub-sec4{
-  max-width: 280px;
+  /* max-width: 280px; */
  }
  .sub-sec4 h3{
-  width: 280px;
+  /* width: 280px; */
   text-align: center;
  }
  .sub-sec4 .from{
     margin-top: 24px;
-   width: 280px;
+   /* width: 280px; */
+   text-align: center;
    }
    .stars{
     position: relative;
@@ -588,33 +616,37 @@
    }
    .review{
     margin-left: 0rem;
+    margin-right: 0rem;
     margin-top: 14px;
  }
- .review p{
+ /* .review p{
   width: 280px; 
- }
+ } */
  .sub-sub{
   flex-direction: column;
+  align-items: center;
  }
  .sub-section4{
   height: 400px;
-  margin-left: -16px;
  }
  .sub41 .gr{
-  width: 280px;
+  /* width: 280px; */
   margin-top: 2rem;
   margin-left: 1rem;
+  margin-right: 1rem;
   text-align: center;
   }
   
   .sub41 p:nth-child(even){
-   width: 271px;
+   /* width: 271px; */
   margin-top: 20px;
   margin-left: 1rem;
+  margin-right: 1rem;
   }
   .sub-section4 .immg{
-    margin-left: 1.5rem;
-    gap: 154px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    gap: 114px;
     margin-bottom: 64px;
    }
    .smallImage2{
@@ -635,7 +667,7 @@
    }
    .sub42-btn{
     top: 320px;
-    left: 60px;
+    left: 0px;
   
    }
 }
