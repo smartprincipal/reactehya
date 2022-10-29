@@ -129,6 +129,7 @@ const Landing = () => {
 </section>
 </section>
 
+{/* SECTION 2 */}
 <section className="section2">
     <article className="tt">
       <p className="sch">Schedule Your Post Whenever You Want</p>
@@ -148,6 +149,8 @@ const Landing = () => {
     </article>
   </section>
 
+
+{/* SECTION 3 */}
   <section className="section3">
     <article>
       <h2>
@@ -157,6 +160,8 @@ const Landing = () => {
         Don’t waste time on search manual tasks. Let Automation do it for you. <br /> Simplify workflows, reduce errors, and save time.
       </p>
     </article>
+
+    {/* CARD IMPORTATION */}
     <div className="cardContainer">
       {data.map((item) => (
         <Card content={item.content} head={item.head} Img={item.Img} key={item.id}/>
@@ -169,6 +174,8 @@ const Landing = () => {
       </div>
       </section>
 
+
+{/* SECTION 4 */}
       <section className="section4">
       <section className="section4-1">
         <article className="sub-sec4">
@@ -275,7 +282,7 @@ const Landing = () => {
         </article>
       </section>
     </section>
-
+            {/* FOOTER IMPORT */}
     <Footer/>
 
     </div>
